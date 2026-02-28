@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import FloatingCallButton from '@/components/FloatingCallButton'
 import { generateLocalBusinessSchema } from '@/lib/schema'
 import { BUSINESS_INFO } from '@/lib/constants'
+import { Analytics } from "@vercel/analytics/next"
 import './globals.css'
 
 const inter = Inter({ subsets: ['cyrillic', 'latin'], variable: '--font-inter' })
@@ -96,6 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </head>
         <body className="font-sans">
         <Header />
+        <Analytics />
         <main>{children}</main>
         <Footer />
         <FloatingCallButton />
