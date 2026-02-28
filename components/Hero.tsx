@@ -39,7 +39,7 @@ export default function Hero() {
 
                         <p className="text-base md:text-lg text-gray-light mb-7 max-w-lg leading-relaxed animate-fadeUp">
                             Діагностика, ремонт двигуна, гальма, КПП, шини та електрика. Чесні ціни, досвідчені
-                            майстри, гарантія на роботу.
+                            майстри.
                         </p>
 
                         {/* CTA Buttons */}
