@@ -76,10 +76,7 @@ export const metadata: Metadata = {
             'max-image-preview': 'large',
             'max-snippet': -1,
         },
-    },
-    verification: {
-        google: 'your-google-verification-code', // Replace with your actual code
-    },
+    }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

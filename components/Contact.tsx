@@ -138,7 +138,7 @@ export default function Contact() {
                     <div>
                         <div className="reveal rounded-2xl overflow-hidden border border-gray-dark">
                             <iframe
-                                src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1006.5399539098315!2d${BUSINESS_INFO.coordinates.lng}!3d${BUSINESS_INFO.coordinates.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d549164705a219%3A0x3d0496989597c1ec!2z0KHQotCeIMKr0KHQv9C10LrRgtGAINCQ0LLRgtC-wrs!5e0!3m2!1sen!2sua!4v1772300413856!5m2!1sen!2sua`}
+                                src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d661.6118344525489!2d31.34870352370724!3d51.513483074095895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d549164705a219%3A0x3d0496989597c1ec!2z0KHQotCeIMKr0KHQv9C10LrRgtGAINCQ0LLRgtC-wrs!5e0!3m2!1sen!2sua!4v1772305527121!5m2!1sen!2sua`}
                                 width="100%"
                                 height="380"
                                 style={{ border: 0 }}

@@ -17,11 +17,6 @@ export function generateLocalBusinessSchema() {
             postalCode: BUSINESS_INFO.address.postalCode,
             addressCountry: BUSINESS_INFO.address.country,
         },
-        geo: {
-            '@type': 'GeoCoordinates',
-            latitude: BUSINESS_INFO.coordinates.lat,
-            longitude: BUSINESS_INFO.coordinates.lng,
-        },
         openingHoursSpecification: [
             {
                 '@type': 'OpeningHoursSpecification',
@@ -30,16 +25,6 @@ export function generateLocalBusinessSchema() {
                 closes: '18:00',
             },
         ],
-        sameAs: [
-            // Add your social media links
-            'https://www.facebook.com/spektrauto',
-            'https://www.instagram.com/spektrauto',
-        ],
-        aggregateRating: {
-            '@type': 'AggregateRating',
-            ratingValue: '4.8',
-            reviewCount: '127',
-        },
     }
 }
 

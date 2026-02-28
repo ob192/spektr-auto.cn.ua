@@ -8,7 +8,6 @@ import { BUSINESS_INFO } from '@/lib/constants'
 function TrustStrip() {
     const items = [
         { icon: '🔧', label: 'Сертифіковані майстри', variant: 'y' },
-        { icon: '🛡️', label: 'Гарантія на роботу', variant: 'y' },
         { icon: '🔍', label: 'Чесна діагностика', variant: 'b' },
         { icon: '💰', label: 'Прозорі ціни', variant: 'b' },
     ]
@@ -61,7 +60,6 @@ export default function HomePage() {
     return (
         <>
             <Hero />
-            <TrustStrip />
             <Services />
             <WhyUs />
             <Contact />
