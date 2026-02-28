@@ -35,7 +35,7 @@ export const BUSINESS_INFO = {
         'ремонт двигуна',
         'ремонт гальм',
     ],
-} as const
+}
 
 export const SERVICES = [
     {
